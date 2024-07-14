@@ -81,7 +81,7 @@ function Post(
       <div className="post__body">
         <div className="post__question">
           {/* <p>{question}</p> */}
-          <p>Test question</p>
+          <p>What should I wear to Anant Ambani's reception?</p>
           <button
             // onClick={() => setIsModalOpen(true)}
             className="post__btnAnswer"

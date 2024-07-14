@@ -10,38 +10,38 @@ function WidgetContent() {
           alt=""
         />
         <div className="widget__contentTitle">
-          <h5>Mobile App Programmer</h5>
-          <p>The best Mobile App Development Company</p>
+          <h5>Accessorize Smartly</h5>
+          <p>A statement necklace, a stylish hat, or a classy handbag can elevate a simple outfit</p>
         </div>
       </div>
       <div className="widget__content">
-        <img
+        {/* <img
           src="https://wallpapercave.com/wp/wp2244215.jpg"
           alt=""
-        />
+        /> */}
         <div className="widget__contentTitle">
-          <h5>Quota of Quotes</h5>
-          <p>Daily dosage of unforgettable lines from ...</p>
+          <h5>Fit Over Fashion</h5>
+          <p>No matter how trendy an item is, if it doesn't fit you well, it won't look good. </p>
         </div>
       </div>
       <div className="widget__content">
-        <img
+        {/* <img
           src="https://wallpapercave.com/wp/wp2244215.jpg"
           alt=""
-        />
+        /> */}
         <div className="widget__contentTitle">
-          <h5>Art & Artist</h5>
-          <p>A Space retated to creating, practicing an...</p>
+          <h5>Color Coordination</h5>
+          <p>Neutral colors are versatile, but don't be afraid to experiment with bold colors and patterns</p>
         </div>
       </div>
       <div className="widget__content">
-        <img
+        {/* <img
           src="https://wallpapercave.com/wp/wp2244215.jpg"
           alt=""
-        />
+        /> */}
         <div className="widget__contentTitle">
-          <h5>Friedrich Nietzche</h5>
-          <p>A Space dedicated to  work of Friedrich</p>
+          <h5>Footwear Matters</h5>
+          <p>Shoes can significantly impact your outfit. Invest in a few quality pairs that are versatile, like classic sneakers, comfortable flats, and a pair of stylish boots</p>
         </div>
       </div>
     

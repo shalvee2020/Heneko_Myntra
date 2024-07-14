@@ -1,43 +1,38 @@
 import { Add } from "@material-ui/icons";
 import React from "react";
 import "./SidebarOption.css";
-
+import RewardIcon from './Images/Reward.png'
+import LeaderIcon from './Images/Leader.png'
+import FollowingIcon from './Images/Following.png'
+import SavedIcon from './Images/Saved.png'
 function SidebarOptions() {
   return (
-    <div className="sidebarOptions">
+    <div className="sidebarOptions"style={{ backgroundColor: 'lightpurple' }}>
       <div className="sidebarOption">
-        <img
-          src="https://wallpapercave.com/wp/wp2244215.jpg"
-          alt=""
-        />
-        <p>History</p>
+      <img className="h-[30px]"src={FollowingIcon}>
+      </img>
+        <h3>Following</h3>
       </div>
 
       <div className="sidebarOption">
-        <img
-          src="https://tse3.mm.bing.net/th?id=OIP.GFvzMt3nRqcWSjS3PxWibQHaE8&pid=Api&P=0&h=180"
-          alt=""
-        />
-
-        <p>Business</p>
+        
+      <img className="h-[30px]"src={LeaderIcon}>
+      </img>
+        <h3>LeaderBoard</h3>
       </div>
       <div className="sidebarOption">
-        <img
-          src="https://wallpaperaccess.com/full/4306503.jpg"
-          alt=""
-        />
-        <p>Psychology</p>
+      <img className="h-[30px]"src={RewardIcon}>
+      </img>
+        <h3>Your Rewards</h3>
       </div>
 
       <div className="sidebarOption">
-        <img
-          src="https://wallpaperaccess.com/full/4306503.jpg"
-          alt=""
-        />
-        <p>Cooking</p>
+      <img className="h-[30px]"src={SavedIcon}>
+      </img>
+        <h3> Saved Post</h3>
       </div>
 
-      <div className="sidebarOption">
+      {/* <div className="sidebarOption">
         <img
           src="https://wallpaperaccess.com/full/4306503.jpg"
           alt=""
@@ -86,8 +81,8 @@ function SidebarOptions() {
       </div>
       <div className="sidebarOption">
         <Add />
-        <p className="text">Discover Spaces</p>
-      </div>
+        <p className="text">Discover Spaces</p> */}
+      {/* </div> */}
     </div>
   );
 }

@@ -7,7 +7,7 @@ import NotificationsOutlinedIcon from "@material-ui/icons/NotificationsOutlined"
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
 //import Modal from "react-modal";
-
+import fasfor from './Images/forum.png'
 import "./QHeader.css";
 import { Avatar, Button, Input } from "@material-ui/core";
 // import { useSelector } from "react-redux";
@@ -47,12 +47,12 @@ function QHeader() {
     <div className="qHeader">
       
       <div className="qHeader__logo">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/250px-Quora_logo_2015.svg.png"
-          alt=""
-        />
-      </div>
-      <div className="qHeader__icons">
+      <img className="h-[30px]"src={fasfor}>
+      </img> 
+      
+</div>
+
+      {/* <div className="qHeader__icons">
         <div className="active qHeader__icon">
           <HomeIcon />
         </div>
@@ -68,10 +68,10 @@ function QHeader() {
         <div className="qHeader__icon">
           <NotificationsOutlinedIcon />
         </div>
-      </div>
+      </div> */}
       <div className="qHeader__input">
         <SearchIcon />
-        <input type="text" placeholder="Search Quora" />
+        <input type="text" placeholder="Search Tips/people" />
       </div>
       <div className="qHeader__Rem">
         <div className="qHeader__avatar">

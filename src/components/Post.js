@@ -6,6 +6,11 @@ import ArrowDownwardOutlinedIcon from "@material-ui/icons/ArrowDownwardOutlined"
 import RepeatOutlinedIcon from "@material-ui/icons/RepeatOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@material-ui/icons/ChatBubbleOutlineOutlined";
 import { MoreHorizOutlined, ShareOutlined } from "@material-ui/icons";
+import {Modal} from "react-responsive-modal"
+import "react-responsive-modal/styles.css"
+import CloseIcon from "@material-ui/icons/Close";
+import ReactQuill from "react-quill"
+import 'react-quill/dist/quill.snow.css'
 // import { useDispatch, useSelector } from "react-redux";
 // import { selectUser } from "../features/userSlice";
 // import Modal from "react-modal";
@@ -19,10 +24,11 @@ function Post(
 //   const user = useSelector(selectUser);
 //   const dispatch = useDispatch();
 
-//   const [IsmodalOpen, setIsModalOpen] = useState(false);
+  const [IsmodalOpen, setIsModalOpen] = useState(false);
+  const Close=(<CloseIcon></CloseIcon>)
 //   const questionId = useSelector(selectQuestionId);
-//   const [answer, setAnswer] = useState("");
-//   const [getAnswers, setGetAnswers] = useState([]);
+  const [answer, setAnswer] = useState("");
+  const [getAnswers, setGetAnswers] = useState([]);
 
 //   useEffect(() => {
 //     if (questionId) {
@@ -83,19 +89,22 @@ function Post(
           {/* <p>{question}</p> */}
           <p>What should I wear to Anant Ambani's reception?</p>
           <button
-            // onClick={() => setIsModalOpen(true)}
+            onClick={() => setIsModalOpen(true)}
             className="post__btnAnswer"
           >
             Answer
           </button>
-          {/* <Modal
-            isOpen={IsmodalOpen}
-            onRequestClose={() => setIsModalOpen(false)}
-            shouldCloseOnOverlayClick={false}
+          <Modal
+            open={IsmodalOpen}
+            closeIcon={Close}
+            onClose={() => setIsModalOpen(false)}
+            closeOnEsc
+          
+            closeOnOverlayClick={false}
             style={{
               overlay: {
                 width: 680,
-                height: 550,
+                height: "auto",
                 backgroundColor: "rgba(0,0,0,0.8)",
                 zIndex: "1000",
                 top: "50%",
@@ -106,26 +115,23 @@ function Post(
             }}
           >
             <div className="modal__question">
-              <h1>{question}</h1>
+              <h1>question</h1>
               <p>
                 asked by{" "}
                 <span className="name">
-                  {users.displayName ? users.displayName : users.email}
+                  displayName 
                 </span>{" "}
                 {""}
-                on{" "}
+                on{" "} 
                 <span className="name">
-                  {new Date(timestamp?.toDate()).toLocaleString()}
+                  {/* {new Date(timestamp?.toDate()).toLocaleString()} */}
+                  timestamp
                 </span>
               </p>
             </div>
             <div className="modal__answer">
-              <textarea
-                value={answer}
-                onChange={(e) => setAnswer(e.target.value)}
-                placeholder="Enter Your Answer"
-                type="text"
-              />
+              <ReactQuill placeholder="Enter your answer"/>
+              
             </div>
             <div className="modal__button">
               <button className="cancle" 
@@ -133,13 +139,13 @@ function Post(
               >
                 Cancel
               </button>
-              <button type="sumbit" 
-              onClick={handleAnswer}
+              <button type="submit" 
+              
                className="add">
                 Add Answer
               </button>
             </div>
-          </Modal> */}
+          </Modal>
         </div>
         
         {/* <img src={imageUrl} alt="" /> */}

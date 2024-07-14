@@ -14,8 +14,12 @@
     "ajv-keywords": "^5.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
     "react-modal": "^3.16.1",
     "react-redux": "^9.1.2",
+=======
+    "react-responsive-modal": "^6.4.2",
+>>>>>>> 667755213da24fdd382e0afa58490c3e0b307e70
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

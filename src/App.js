@@ -2,48 +2,21 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Quora from './components/Quora';
-
+//import { Leaderboard } from '@mui/icons-material';
+import Leaderboard from './components/LeaderBoardComp';
 function App() {
   return (
     <div className="App">
      
-   <Header></Header>
-   <Quora></Quora>
+    <Header></Header>
+   <Quora></Quora> 
+   {/* <Leaderboard></Leaderboard> */}
     </div>
   );
 }
 
 export default App;
 
-
-// export default App;
-// import React from 'react';
-// import './App.css';
-// import Header from './components/Header';
-// import QHeader from './components/QHeader';
-// import Sidebar from './components/Sidebar';
-// import Widget from './components/Widget';
-// import Leaderboard from './components/LeaderBoardComp';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Header />
-//       <QHeader />
-//       <div className="main-content">
-//         <Sidebar className="sidebar" />
-//         <div className="leaderboard-container">
-//           <Leaderboard className="leaderboard" />
-//           <div className="widget-container">
-//             <Widget className="widget" />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 
 

@@ -10,7 +10,6 @@ https://www.figma.com/design/UsGVQawwAnuWPyK1mlRfvL/Untitled?node-id=0-1&t=AFMAF
 <pre>
 <b><h2> About Us </h2></b>
 Hey everyone!! We have come up with the idea of how to increase user engagement on Myntra Platform ?
-<br><br>
 1)Create a dedicated Q&A page:
 User Interaction: Users can ask for fashion advice for specific events or occasions.
 Knowledge Sharing: Users can share opinions and knowledge about the latest trends and fashion tips.

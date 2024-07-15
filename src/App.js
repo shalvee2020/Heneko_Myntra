@@ -11,13 +11,15 @@ function App() {
     <Router>
     <div className="App">
       <Header />
+      
+      {/* <Leaderboard></Leaderboard> */}
       <Routes>
         <Route path="src\components\RewardsPage.js" element={<RewardsPage />} />
         <Route path="/" element={<Quora />} />
       </Routes>
      
-    <Header></Header>
-   <Quora></Quora> 
+    
+   
    {/* <Leaderboard></Leaderboard> */}
     </div>
   </Router>

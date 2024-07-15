@@ -15,6 +15,22 @@ Hey everyone!! We have come up with the idea of how to increase user engagement 
 User Interaction: Users can ask for fashion advice for specific events or occasions.
 Knowledge Sharing: Users can share opinions and knowledge about the latest trends and fashion tips.
 Upvoting System: Users can upvote answers that provide helpful and relevant advice.
+  
+2)Leaderboard System:
+Tracking Contributions: We track and showcase users who consistently provide valuable fashion advice.
+Climbing the Leaderboard: Users who receive a high number of upvotes can climb the leaderboard, highlighting their community contributions.
+Recognition: We award badges or special tags like "Fashion Advisor" to enhance user profiles.
+  
+3)Rewards and Incentives:
+Special Offers: We offer discounts or special offers to top contributors as a reward for their valuable input.
+User Levels: We enhance user levels based on their activity and contributions, providing a sense of achievement and status within the community.
+  
+4)Saved Post Option:
+Saving Tips/Posts: Users can save tips/posts they want to keep for future reference.
+  
+5)Following Option:
+Personalized Content: Users can follow their favorite contributors to receive personalized content and updates directly in their feed.
+
 </pre>
 <hr>
 

@@ -1,0 +1,69 @@
+/* RewardsPage.css */
+
+.rewards-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.rewards-page h1 {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.rewards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.points, .actions, .refer-friends {
+    margin: 20px 0;
+}
+
+.points h2, .refer-friends h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.points p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.earn-button, .redeem-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.earn-button {
+    background-color: #4caf50; /* Green */
+}
+
+.redeem-button {
+    background-color: #f44336; /* Red */
+}
+
+.refer-friends p {
+    color: #666;
+}
+
+.refer-friends small {
+    display: block;
+    margin-top: 10px;
+    color: #999;
+}

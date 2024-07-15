@@ -7,22 +7,16 @@ import Quora from './components/Quora';
 import RewardsPage from './components/RewardsPage';
 //import { Leaderboard } from '@mui/icons-material';
 import Leaderboard from './components/LeaderBoardComp';
+import QHeader from './components/QHeader';
 function App() {
   return (
-    <Router>
+   
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path="src\components\RewardsPage.js" element={<RewardsPage />} />
-        <Route path="/" element={<Quora />} />
-      </Routes>
-     
-    <Header></Header>
-   <Quora></Quora>  
+      <Header></Header>
+      <Quora></Quora> 
     {/* <Leaderboard></Leaderboard>  */}
    {/* <SavePos></SavePos>  */}
     </div>
-  </Router>
   );
 }
 

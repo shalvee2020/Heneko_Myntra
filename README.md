@@ -6,8 +6,6 @@ https://www.figma.com/design/UsGVQawwAnuWPyK1mlRfvL/Untitled?node-id=0-1&t=AFMAF
 
 
 
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

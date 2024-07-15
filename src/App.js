@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Quora from './components/Quora';
 import RewardsPage from './components/RewardsPage';
+//import { Leaderboard } from '@mui/icons-material';
+import Leaderboard from './components/LeaderBoardComp';
 function App() {
   return (
     <Router>
@@ -13,9 +15,18 @@ function App() {
         <Route path="src\components\RewardsPage.js" element={<RewardsPage />} />
         <Route path="/" element={<Quora />} />
       </Routes>
+     
+    <Header></Header>
+   <Quora></Quora> 
+   {/* <Leaderboard></Leaderboard> */}
     </div>
   </Router>
   );
 }
 
 export default App;
+
+
+
+
+

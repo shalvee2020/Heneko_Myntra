@@ -12,17 +12,11 @@ function App() {
   return (
    
     <div className="App">
-      <Header></Header>
-      <Quora></Quora> 
-    {/* <Leaderboard></Leaderboard>  */}
-   {/* <SavePos></SavePos>  */}
+     
+     <Header></Header>
+     <Quora></Quora>
     </div>
   );
 }
 
 export default App;
-
-
-
-
-

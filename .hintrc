@@ -8,7 +8,9 @@
       {
         "ignore": [
           "min-height: fit-content",
-          "position: sticky"
+          "position: sticky",
+          "-webkit-text-size-adjust",
+          "-webkit-tap-highlight-color"
         ]
       }
     ]

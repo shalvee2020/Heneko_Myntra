@@ -80,9 +80,9 @@ function Post(
         //   }
         />
         {/* <h4>{users.displayName ? users.displayName : users.email}</h4> */}
-        <h4>User Name</h4>
+        <h4>Michael123</h4>
         {/* <small>{new Date(timestamp?.toDate()).toLocaleString()}</small> */}
-        <small>Timestamp</small>
+        <small>Posted by Michael Jul 1</small>
       </div>
       <div className="post__body">
         <div className="post__question">
@@ -104,7 +104,7 @@ function Post(
             style={{
               overlay: {
                 width: 680,
-                height: "auto",
+                height: 400,
                 backgroundColor: "rgba(0,0,0,0.8)",
                 zIndex: "1000",
                 top: "50%",
@@ -115,17 +115,17 @@ function Post(
             }}
           >
             <div className="modal__question">
-              <h1>question</h1>
+              <h1>What is your Question ?</h1>
               <p>
                 asked by{" "}
                 <span className="name">
-                  displayName 
+                  MansiK
                 </span>{" "}
                 {""}
                 on{" "} 
                 <span className="name">
                   {/* {new Date(timestamp?.toDate()).toLocaleString()} */}
-                  timestamp
+                  Jul 13 2024
                 </span>
               </p>
             </div>
@@ -214,14 +214,14 @@ function Post(
               <Avatar/>
               <div className="post-info">
                 <p>
-                  Username
+                  FashionHub
                 </p>
                 <span>
-                  Timestamp
+                Mary Jul 2
                 </span>
               </div>
             </div>
-            <div style={{margin:"0px 10px",}} className="post-answer">This is test answer</div>
+            <div style={{margin:"0px 10px ",}} className="post-answer">For Anant Ambani's reception, women should opt for elegant and sophisticated attire. Consider wearing a traditional Indian outfit like a richly embroidered saree or a designer lehenga in vibrant colors or pastel shades. Pair your outfit with statement jewelry, such as chandelier earrings or a maang tikka, and stylish footwear. A chic clutch and soft, glamorous makeup will complete your look, ensuring you are dressed appropriately for this high-profile and festive occasion.</div>
           </div>
         </div>
     </div>

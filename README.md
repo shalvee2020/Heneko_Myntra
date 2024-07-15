@@ -5,10 +5,12 @@
 <b><h2>PPT Link<h2></h2></b>
 https://docs.google.com/presentation/d/1UUobIHOIAHOEDYFSKHOHXROartg8Ibxx/edit?usp=sharing&ouid=115854760666910200002&rtpof=true&sd=true
 
-<b><h2> About Us </h2></b>
 ## UI Design Figma File Link
 https://www.figma.com/design/UsGVQawwAnuWPyK1mlRfvL/Untitled?node-id=0-1&t=AFMAFwG8isy6tbpv-1
 
+<b><h2> About Us </h2></b>
+Hey everyone!! We have come up with the idea of how to increase user engagement on Myntra Platform ?
+<br><br>
 ## Features
 
 

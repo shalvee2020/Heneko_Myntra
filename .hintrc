@@ -7,7 +7,8 @@
       "default",
       {
         "ignore": [
-          "min-height: fit-content"
+          "min-height: fit-content",
+          "position: sticky"
         ]
       }
     ]

@@ -27,7 +27,7 @@ const Leaderboard = () => {
       <Header />
       <QHeader />
       <div className="flex">
-        <div className="w-1/4">
+        <div className="w-1/5">
           <Sidebar />
         </div>
         <div className="min-h-screen bg-gradient-to-b from-white to bg-pink-200 p-8 mt-16 pb-44 flex-grow">

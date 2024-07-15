@@ -11,8 +11,8 @@ function App() {
       
     <Header></Header>
    <Quora></Quora>  
-    {/* <Leaderboard></Leaderboard> 
-   <SavePos></SavePos> */}
+    {/* <Leaderboard></Leaderboard>  */}
+   {/* <SavePos></SavePos>  */}
     </div>
   );
 }
